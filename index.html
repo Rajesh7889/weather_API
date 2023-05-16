@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather API</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="show(city)">
+     
+    <div class="containor" >
+         <h2 id="heading">Check weather</h2>
+         <div class="search">
+             <input type="text" id="searchbar" placeholder="enter city name....">
+             <img src="OIP.jpg" onclick="show(city)"  id="searchicon">
+         </div>
+         <div class="wthrinfo">
+             <div class="weathericon">
+                 <img src="default.jpg" id="wthricn">
+             </div>
+             <div id="weatherdata">please wait..</div>
+             <div id="wthr"></div>
+             <div id="cityname"> loading...</div>
+         </div>
+         <div class="details">
+             <div id="col1">
+                <img src="/weather_API/vector-humidity-vetor-icon.jpg" class="img" alt=".">
+                <div class="humidity">
+                    <div id="humidity">--</div>
+                    <div>humidity</div>
+                </div>
+             </div>
+             <div class="col" id="col2">
+                 <img src="/weather_API/windspeed.jpg" class="img" alt=".">
+                 <div class="wind">
+                    <div id="windspeed">--</div>
+                    <div>wind speed</div>
+                 </div>
+             </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

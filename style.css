@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-image:linear-gradient(rgb(235, 235, 7),rgb(235, 182, 7),rgb(188, 94, 6),rgb(13, 154, 193),rgb(13, 109, 193),rgb(13, 43, 193));
+}
+.containor{
+    
+    background-color: rgba(0, 0, 0, 0.36);
+    padding: 2px;
+    width: 400px;
+    border-radius: 25px;
+    
+}
+#heading{
+    width:70%;
+    margin-left: 15%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.379);
+}
+.search,.weathericon,#weatherdata,#wthr,#cityname,#wthricn,#heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+#searchicon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:none;
+    margin: 5px;
+    box-shadow: 0px 0px 70px red;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%; 
+      
+}
+
+
+input[type=text]{
+    height: 30px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 0px 0px 70px red;
+    outline: none;
+    background-color: rgb(202, 225, 225);
+    text-align: center;
+}
+#wthricn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 70px red;
+   
+}
+.search{
+    margin:20px
+}
+#col1,#col2{
+   display: flex;
+   justify-content: left;
+   color: aliceblue;
+   margin-bottom: 15px;
+   
+   
+}
+#col2{
+    display: flex;
+   justify-content: right;
+    width:50%;
+}
+
+#searchicon:hover{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border:1px solid black;
+    margin: 3px;
+    box-shadow: 0px 0px 70px red;
+}
